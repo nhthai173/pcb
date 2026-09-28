@@ -1,0 +1,229 @@
+(footprint "HLK-LD2410B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hi-Link HLK-LD2410B 24GHz presence radar module, 35x7mm, 5 pins 1.27mm pitch, flat mount on 1.27mm male header (2.0mm plastic standoff), antenna side up. Pin1 OUT, 2 TX, 3 RX, 4 GND, 5 VCC(5V). https://www.hlktech.net/index.php?id=1094")
+	(tags "LD2410B HLK-LD2410B radar mmwave 24GHz presence sensor 1.27mm")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "f089b869-f64d-416a-9301-73cb209d9151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HLK-LD2410B"
+		(at 0 7.35 0)
+		(layer "F.Fab")
+		(uuid "ce5a1bdc-2227-4039-acfd-f20793bf8987")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af5dd2da-c365-486b-a9fd-a565a4d49453")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33745ef-cf9a-497b-b198-deeb43261e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -1.15)
+		(end 33.98 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd7b1784-bcad-4ade-85da-7d2e7cd9dd84")
+	)
+	(fp_line
+		(start 33.98 -1.15)
+		(end 33.98 6.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a6c1ff6-9651-4460-86b7-497a06e659f9")
+	)
+	(fp_line
+		(start 33.98 6.35)
+		(end -1.52 6.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c85a57c2-b1a4-4286-b45e-86541624ebaf")
+	)
+	(fp_line
+		(start -1.52 6.35)
+		(end -1.52 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a271a6a8-3165-4fa6-afee-52105223f62c")
+	)
+	(fp_line
+		(start -1.39 -1.02)
+		(end 33.85 -1.02)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9adf8c7-2d31-494c-a1a9-8e422a50c5b8")
+	)
+	(fp_line
+		(start 33.85 -1.02)
+		(end 33.85 6.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ca3dac3-de0c-4fc5-92fb-644910156d37")
+	)
+	(fp_line
+		(start 33.85 6.22)
+		(end -1.39 6.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb46adfb-9707-4661-950b-4f5dc319cdc1")
+	)
+	(fp_line
+		(start -1.39 6.22)
+		(end -1.39 -1.02)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59312532-b6a5-49eb-8824-353491d287e1")
+	)
+	(fp_line
+		(start -1.27 -0.9)
+		(end 33.73 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f2b8798-d75e-4d43-b7b1-9be755cc0d0d")
+	)
+	(fp_line
+		(start 33.73 -0.9)
+		(end 33.73 6.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26966151-cab0-4c0d-842a-2817dffdd60b")
+	)
+	(fp_line
+		(start 33.73 6.1)
+		(end -1.27 6.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c20960fc-ab5b-48d8-ba59-f62c89a6bbf6")
+	)
+	(fp_line
+		(start -1.27 6.1)
+		(end -1.27 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0be0b31-b458-483e-84f0-764becc9af58")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0773b6ad-8743-4560-9648-8b40e5583419")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.27)
+		(size 1.2 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4570fd6b-d55f-43e9-8105-e56f232d9700")
+	)
+	(pad "3" thru_hole oval
+		(at 0 2.54)
+		(size 1.2 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "459b6187-605d-4562-83c6-80f8b558a57d")
+	)
+	(pad "4" thru_hole oval
+		(at 0 3.81)
+		(size 1.2 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "558761e4-9fd6-4d19-b15f-1233b4603d57")
+	)
+	(pad "5" thru_hole oval
+		(at 0 5.08)
+		(size 1.2 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b75d3fc2-1e1f-4a6f-ad6f-d2f468744a27")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../kicad_lib/nhtlib.3dshapes/HLK-LD2410B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
