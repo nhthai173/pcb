@@ -3,3 +3,16 @@ History*
 Project Logs*
 .DS_Store
 backup
+# KiCad
+.history/
+*-backups/
+_autosave-*
+*.lck
+*.kicad_prl
+fp-info-cache
+*.bak
+*-erc.json
+*-drc.json
+
+# Python (3D model generators)
+__pycache__/
