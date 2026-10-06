@@ -2793,6 +2793,12 @@
 		(uuid "5861026c-73b0-446b-9628-742f0b278cce")
 	)
 	(junction
+		(at 95.25 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92dc83d4-e3ff-4be2-91db-1c36feb2a0b0")
+	)
+	(junction
 		(at 58.42 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3116,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f98f1a-246a-4bf6-ae2c-4a04e24ec071")
+	)
+	(wire
+		(pts
 			(xy 102.87 143.51) (xy 99.06 143.51)
 		)
 		(stroke
@@ -3316,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5de67ce-0083-482c-b16a-900b40fddb14")
+	)
+	(wire
+		(pts
 			(xy 76.2 107.95) (xy 82.55 107.95)
 		)
 		(stroke
@@ -3333,6 +3359,16 @@
 			(type default)
 		)
 		(uuid "cd8dffa7-41ff-4097-984e-c3072fe148e3")
+	)
+	(wire
+		(pts
+			(xy 109.22 113.03) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f19b96-4fd8-4c40-810e-56eaa611cacb")
 	)
 	(wire
 		(pts
@@ -4919,6 +4955,88 @@
 			(project "LightStripSensor"
 				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 109.22 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f868f4-5d36-44bf-959a-296ea9474930")
+		(property "Reference" "C6"
+			(at 111.76 109.2262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 111.76 111.7662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 109.22 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70aed8ee-4827-45d9-a5ae-760614a2208c")
+		)
+		(pin "2"
+			(uuid "8590d130-3150-40e1-86f0-e95cdecd6b12")
+		)
+		(instances
+			(project "LightStripSensor"
+				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
+					(reference "C6")
 					(unit 1)
 				)
 			)
