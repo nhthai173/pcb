@@ -5,244 +5,6 @@
 	(uuid "4228bc61-6b6e-4a67-a78d-24cb95585443")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -3042,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 57.15 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29babb22-192a-4e92-a87d-cb0681930e78")
-	)
-	(wire
-		(pts
 			(xy 99.06 151.13) (xy 99.06 154.94)
 		)
 		(stroke
@@ -3142,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 68.58) (xy 48.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b30dd98-db28-4a38-8f8c-b5e5770ec474")
+	)
+	(wire
+		(pts
 			(xy 76.2 74.93) (xy 76.2 77.47)
 		)
 		(stroke
@@ -3152,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 149.86 72.39)
+			(xy 149.86 72.39) (xy 156.21 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3179,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "6821b048-e1c0-410c-9de8-5018a0148270")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef9e27a-2113-469c-ab53-473789198ea3")
 	)
 	(wire
 		(pts
@@ -3282,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 71.12) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45e4637-5d9a-4293-9a53-593fec060506")
+	)
+	(wire
+		(pts
 			(xy 54.61 72.39) (xy 54.61 77.47)
 		)
 		(stroke
@@ -3299,16 +3081,6 @@
 			(type default)
 		)
 		(uuid "ac34c3d4-159c-4418-8781-db1b424edf23")
-	)
-	(wire
-		(pts
-			(xy 52.07 72.39) (xy 54.61 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9da991d-37bf-4056-b1c3-0dff6b320401")
 	)
 	(wire
 		(pts
@@ -3352,6 +3124,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca41dcb8-b643-4e99-b64d-5d0a13b82629")
+	)
+	(wire
+		(pts
 			(xy 82.55 115.57) (xy 68.58 115.57)
 		)
 		(stroke
@@ -3369,6 +3151,16 @@
 			(type default)
 		)
 		(uuid "d0f19b96-4fd8-4c40-810e-56eaa611cacb")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b902d0-901d-4107-8069-1bc5785918c1")
 	)
 	(wire
 		(pts
@@ -3392,6 +3184,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 67.31) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deea70e5-5ebe-4adb-9989-5b55e785ee7b")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 128.27 119.38)
 		)
 		(stroke
@@ -3402,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 67.31) (xy 149.86 67.31)
+			(xy 149.86 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5121,87 +4923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 44.45 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b770d52-e5e9-4f8e-ad49-7949625b008a")
-		(property "Reference" "J2"
-			(at 45.72 61.595 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC_IN 12V 5.5x2.1"
-			(at 45.72 64.135 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 44.45 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ccf456f-dc97-40bf-b657-f08869caf0b0")
-		)
-		(pin "2"
-			(uuid "387735a1-2443-41d2-aa47-70a0479d54a5")
-		)
-		(pin "3"
-			(uuid "dc16c0e1-0923-45f4-83fc-3466f49fb51b")
-		)
-		(instances
-			(project "LightStripSensor"
-				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 102.87 147.32 0)
 		(unit 1)
@@ -5278,6 +4999,85 @@
 			(project "LightStripSensor"
 				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 43.18 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76bfa310-785d-4549-9bf0-7d98cade5b3b")
+		(property "Reference" "J2"
+			(at 42.926 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_IN 12V"
+			(at 43.18 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+			(at 43.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e8936b1-3501-4742-bc12-907a05b0b7bf")
+		)
+		(pin "2"
+			(uuid "f9485b49-a77f-4c43-a175-2e254cafb5c8")
+		)
+		(instances
+			(project "LightStripSensor"
+				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5434,6 +5234,85 @@
 			(project "LightStripSensor"
 				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 161.29 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9af907de-fc91-4c83-bce3-712b4e12c69e")
+		(property "Reference" "J1"
+			(at 161.29 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC_IN 12V"
+			(at 162.052 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66a155e5-5e67-4846-8b4b-88b1d014f0a0")
+		)
+		(pin "2"
+			(uuid "7202a836-cab1-49c9-8e30-1fe38acc5d18")
+		)
+		(instances
+			(project "LightStripSensor"
+				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5942,88 +5821,6 @@
 			(project "LightStripSensor"
 				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 160.02 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f15e42fe-ccea-4d51-bf14-42b61aa16aed")
-		(property "Reference" "J1"
-			(at 167.62 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_OUT 5.5x2.1"
-			(at 175.745 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c5ba02b-0a6e-44b6-b0ce-9d630b225023")
-		)
-		(pin "2"
-			(uuid "5489b3d4-aa0b-4458-9b45-a9038164d532")
-		)
-		(pin "3"
-			(uuid "68b1d183-985c-4c50-aaab-38997d869dc9")
-		)
-		(instances
-			(project "LightStripSensor"
-				(path "/4228bc61-6b6e-4a67-a78d-24cb95585443"
-					(reference "J1")
 					(unit 1)
 				)
 			)
